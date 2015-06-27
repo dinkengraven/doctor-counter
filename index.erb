@@ -19,7 +19,13 @@
   </head>
 
   <body>
-  <h5>As of <%= @today %>, there are <%= @days_left %> days of residency left, and I've completed <%= @days_completed %>.</h5>
-  <h5>And <%= @jokes.sample %></h5>
+  <h5>
+  	<div>
+  		As of <%= @today %>, there are <%= @days_left %> days of residency left, and I've completed <%= @days_completed %>.
+  	</div>
+  	<div>
+  		And <%= @jokes.sample %>
+  	</div>
+  </h5>
   </body>
 </html>
